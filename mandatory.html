@@ -38,15 +38,15 @@
 
     @media (max-width: 768px) {
     .modal-image {
-        width: 80%; /* Adjust width on medium and smaller screens */
-        height: auto; /* Let height adjust proportionally */
+        width: 80%; 
+        height: auto;
     }
 }
 
 @media (max-width: 576px) {
     .modal-image {
-        width: 100%; /* Full width on small screens */
-        height: auto; /* Let height adjust proportionally */
+        width: 100%; 
+        height: auto; 
     }
 }
     .modal-video {
@@ -64,15 +64,15 @@
       font-size: 1.2rem;
     }
   </style>
-  <!-- Google Web Fonts -->
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 
-  <!-- Font Awesome -->
+
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Libraries Stylesheet -->
+
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet">
@@ -104,7 +104,7 @@
                                 class="dropdown-item">Building Safety Certificate</a>
                                 <a href="/certificate.html?name=Land Certificate&imagelink=./img/certificates/LandCertificate.jpg&pdflink=./img/certificates/Land Certificate.pdf"
                                 class="dropdown-item">Land Certificate</a>
-                                <!-- <a href="./img/certificates/Mandatory Disclosure Details.jpg" class="dropdown-item">Mandatory dislosure details</a> -->
+  
                                 <a href="mandatory.html" class="dropdown-item">Mandatory disclosure details</a>
                                 <a href="/certificate.html?name=No Objection Certificate&imagelink=./img/certificates/No Objection Certificate.jpg&pdflink=./img/certificates/No Objection Certificate.pdf"
                                 class="dropdown-item">No Objection  Certificate</a>
@@ -135,23 +135,22 @@
   <div class="content-container">
     <h2 class="mt-4 mb-4 text-dark" >Mandatory Disclosure Details</h2>
 
-    <!-- Image Display -->
+
     <img src="./img/certificates/Mandatory Disclosure Details.jpg" class="modal-image" alt="Mandatory Disclosure">
     <p class="mt-3 mb-3 text-dark">Click on file to Open or Download pdf file</p>
-    <!-- Video Display -->
+ 
     <video controls class="modal-video">
       <source src="https://jaininternationalacademy.com/assets/JIPS.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
-    <!-- Link to go back to the previous page -->
-    <!-- <a href="javascript:history.back()" class="back-link text-center">Go Back</a> -->
+    
   </div>
 
-<!-- Footer End -->
+
 <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
     <div class="row pt-5 text-center text-lg-left">
-      <!-- First Column -->
+    
       <div class="col-lg-4 col-md-6 mb-5 text-white">
         <a href="" class="navbar-brand">
           <h1 class="text-primary"><span class="text-white">JIPS</span></h1>
@@ -173,7 +172,6 @@
         </div>
       </div>
   
-      <!-- Second Column -->
       <div class="col-lg-4 col-md-6 mb-5 text-white">
         <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Useful Links</h5>
         <div class="d-flex flex-column align-items-center align-items-lg-start text-white">
@@ -185,7 +183,7 @@
           </div>
       </div>
   
-      <!-- Third Column -->
+
       <div class="col-lg-4 col-md-6 mb-5 text-white">
         <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
         <p><i class="fa fa-map-marker-alt mr-2"></i>Valsad, Gujarat</p>
@@ -196,7 +194,7 @@
                               href="mailto:jipsschoolvalsad@gmail.com"
                               ><i class="fa-solid fa-envelope"></i>&nbsp;jipsschoolvalsad@gmail.com</a
                             ></p>
-        <!-- <p><i class="fa fa-envelope mr-2"></i>jipsschoolvalsad@gmail.com</p> -->
+      
       </div>
     </div>
   </div>
@@ -207,36 +205,35 @@
    
   
     <script>
-      // Extract query parameters from URL
+  
       const params = new URLSearchParams(window.location.search);
       const name = params.get("name");
       const imageLink = params.get("imagelink");
       const pdfLink = params.get("pdflink");
   
-      // Update page content
       document.getElementById("certificate-name").textContent = name;
       const image = document.getElementById("certificate-image");
       image.src = imageLink;
   
-      // Open PDF when image is clicked
+     
       function openPDF() {
         window.open(pdfLink, "_blank");
       }
     </script>
     
-      <!-- JavaScript Libraries -->
+    
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
       <script src="lib/easing/easing.min.js"></script>
       <script src="lib/owlcarousel/owl.carousel.min.js"></script>
      
   
-      <!-- Contact Javascript File -->
+    
       <script src="mail/jqBootstrapValidation.min.js"></script>
       <script src="mail/contact.js"></script>
   
      
-      <!-- Template Javascript -->
+  
       <script src="js/main.js"></script>
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
